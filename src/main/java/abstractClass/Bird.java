@@ -1,2 +1,4 @@
-package abstractClass;public class Bird {
+package abstractClass;
+
+public abstract class Bird {
 }

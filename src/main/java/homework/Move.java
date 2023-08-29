@@ -1,10 +1,12 @@
 package homework;
 
-public abstract class Punct{
-    public abstract void move();
+public abstract class Move {
 
-    public void run() {
-        Movable point = new MovablePoint(1,2,3,4);
-        System.out.println(point);
+
+    public abstract void moveIt();
+
+    public void initial() {
+        System.out.print("Datele initiale: ");
+
     }
 }

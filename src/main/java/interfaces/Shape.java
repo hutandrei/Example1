@@ -1,2 +1,6 @@
-package interfaces;public interface Shape {
+package interfaces;
+
+public interface Shape {
+    double getArea();
+    void draw();
 }

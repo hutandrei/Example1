@@ -1,15 +1,19 @@
 package homework;
 
-public class MoveIt extends Punct{
+public class MovePoint extends Move {
+
+    Movable point = new MovablePoint(5,5,2,3);
 
     @Override
-    public void move() {
+    public void moveIt() {
+        System.out.println(point);
+        point.moveUp();
+        point.moveLeft();
+        point.moveDown();
+        point.moveRight();
 
     }
 
-    @Override
-    public void run() {
-        System.out.println("runs way faster");
-    }
+
 }
 
